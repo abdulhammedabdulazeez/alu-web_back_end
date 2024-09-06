@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
+import typing
+# from typing import List
 
 
-def sum_list(input_list: list) -> float:
+def sum_list(input_list: typing.List[float]) -> float:
     """
     Returns the sum of a list of floats.
 
