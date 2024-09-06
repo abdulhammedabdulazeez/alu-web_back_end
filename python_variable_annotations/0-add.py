@@ -3,7 +3,7 @@
 
 def add(a: float, b: float) -> float:
     """
-    Adds two numbers
+    Adds two `float` numbers provided as parameters to the function
     :param a: a float number
     :param b: a float number
     :return: returns a float
