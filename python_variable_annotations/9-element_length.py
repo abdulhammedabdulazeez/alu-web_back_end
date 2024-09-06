@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
-from typing import List, Any, Tuple, Sequence
+from typing import Iterable, Sequence, Tuple, List
 
 
-def element_length(lst: List[Any]) -> List[Tuple[Sequence, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     Returns a list of tuples, where each tuple contains an element
     from the input list and its length.
 
     Args:
-    lst (List[Any]): The input list.
+    lst (Iterable[Sequence]): The input list.
 
     Returns:
-    List[Tuple[Any, int]]: A list of tuples, where each tuple contains
-    an element from the input list and its length.
+    List[Tuple[Sequence, int]]: A list of tuples, where each tuple
+    contains an element from the input list and its length.
     """
     return [(i, len(i)) for i in lst]
