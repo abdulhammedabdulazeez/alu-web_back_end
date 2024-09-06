@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-# from typing import Union, Tuple
+from typing import Union, Tuple
 
 
-def to_kv(k: str, v: int | float) -> tuple[str, float]:
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """
     Returns a tuple containing the input string k and the square of the input int/float v.
 
