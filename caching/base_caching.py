@@ -3,7 +3,7 @@
 """
 
 
-class BaseCaching():
+class BaseCaching:
     """ BaseCaching defines:
       - constants of your caching system
       - where your data are stored (in a dictionary)
@@ -11,7 +11,7 @@ class BaseCaching():
     MAX_ITEMS = 4
 
     def __init__(self):
-        """ Initiliaze
+        """ Initialize
         """
         self.cache_data = {}
 
